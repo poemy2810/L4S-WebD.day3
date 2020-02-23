@@ -1,6 +1,19 @@
+$(document).ready(function(){
+  $('.fuwat').css('visibility','hidden');
+  $(window).scroll(function(){
+   var windowHeight = $(window).height(),
+       topWindow = $(window).scrollTop();
+   $('.fuwat').each(function(){
+    var objectPosition = $(this).offset().top;
+    if(topWindow > objectPosition - windowHeight + 200){
+     $(this).addClass("fuwatAnime");
+    }
+   });
+  });
+});
+
 
 $('.slider').slick({
-    autoplay:true,
     dots:true,
     slidesToShow:4,
     fade:false,
