@@ -6,6 +6,10 @@
     <title>Happy Hack</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href= "images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css">
+    
+   
 </head>
 
 
@@ -35,7 +39,7 @@
         
         
     <div class = "container">
-        
+        <div class="fuwat">
         <div  id = "introduction">
            <h1 class = "title">Introduction</h1>
             <div class = "contents1">
@@ -61,6 +65,7 @@
                        <img src = "images/introduction_002.jpg" alt="" width = "500">
                        
             </div>
+        </div>
         </div>
         
         
@@ -88,28 +93,28 @@
                         <a href = "#courses">このコースを受ける</a>
                     </div>
                     
-                    <div class = "course" id = "ruby">
-                        <img class = "ofi" src = "images/ruby.png" alt = "" width = "100" height = "100">
+                    <div class="course" id="ruby">
+                        <img class="ofi" src="images/ruby.png" alt = "" width = "100" height = "100">
                         <p>Rubyコース</p>
                         <a href = "#courses">このコースを受ける</a>
                     </div>
                 </div>
                 
-                <div class = "under">
-                    <div class = "course" id = "js">
-                        <img class = "ofi" src = "images/js.png" alt = "" width = "100" height = "100">
+                <div class="under">
+                    <div class="course" id="js">
+                        <img class="ofi" src="images/js.png" alt = "" width = "100" height = "100">
                         <p>JavaScriptコース</p>
-                        <a href = "#courses">このコースを受ける</a>
+                        <a href="#courses">このコースを受ける</a>
                     </div>
                     
-                    <div class = "course" id = "swift">
+                    <div class="course" id="swift">
                         <img class = "ofi" src = "images/swift.png" alt = "" width = "100" height = "100">
                         <p>Swiftコース</p>
                         <a href = "#courses">このコースを受ける</a>
                     </div>
                     
-                    <div class = "course" id = "go" >
-                        <img class = "ofi" src = "images/go.png" alt = "" width = "100" height = "100">
+                    <div class="course" id="go" >
+                        <img class="ofi" src="images/go.png" alt = "" width = "100" height = "100">
                         <p>GOコース</p>
                         <a href = "#courses">このコースを受ける</a>
                     </div> 
@@ -118,13 +123,21 @@
             
         </div>
         
-        <div id = "images">
-            <h1 class = "title">Images</h1>
+        <div id="images">
+            <h1 class="title">Images</h1>
+            
+            <ul class="slider">
+            <li><a href="#"><img src="images/hero.jpg" alt="" width="100"></a></li>
+            <li><a href="#"><img src="images/background2.jpg" alt="" width="100"></a></li>
+            <li><a href="#"><img src="images/background3.jpg" alt="" width="100"></a></li>
+            <li><a href="#"><img src="images/background5.jpg" alt="" width="100" ></a></li>
+            </ul>
+            
         </div>
         
-        <div id = "access">
-           <h1 class = "title">Access</h1>
-           <div class = "map">
+        <div id="access">
+           <h1 class="title">Access</h1>
+           <div class="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.47175439977!2d135.49039604321825!3d34.69735029787669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f359905ed7%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1582176346179!5m2!1sja!2sjp" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           </div>
         </div>
@@ -138,6 +151,12 @@
     </footer>
     
     </div>
+    
+   
+     <script type="text/javascript" src="./slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./slick-1.8.1/slick/slick.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
     
 </body>
 
