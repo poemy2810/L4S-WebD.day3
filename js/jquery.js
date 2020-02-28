@@ -20,6 +20,7 @@ $('.slider').slick({
     slidesToScroll:1
 });
 
+
 $('.main-visual').bgSwitcher({
    images:['images/hero.jpg','images/background2.jpg','images/background3.jpg','images/background4.jpg','images/background5.jpg'], 
 　 interval: 6000,
@@ -29,3 +30,5 @@ $('.main-visual').bgSwitcher({
 　 duration:800,
 　 easing:"swing" // linear,swing
    });
+
+
