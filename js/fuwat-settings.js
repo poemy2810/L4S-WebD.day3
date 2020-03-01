@@ -31,4 +31,3 @@ $('.main-visual').bgSwitcher({
 　 easing:"swing" // linear,swing
    });
 
-
